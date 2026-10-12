@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sortownia – polityka prywatności</title>
+<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:680px;margin:48px auto;padding:0 16px;color:#1d1d1f}h2{margin-top:2em}</style></head>
+<body>
+<h1>Polityka prywatności</h1>
+<p>Sortownia to prywatna aplikacja na macOS, z której korzysta wyłącznie jej autor, na własnych kontach Google.</p>
+<ul>
+<li>Aplikacja łączy się z Gmail API, aby wyświetlać, porządkować i wysyłać pocztę właściciela konta (zakres <code>gmail.modify</code>) oraz odczytać jego adres e-mail i nazwę (<code>openid</code>, <code>email</code>, <code>profile</code>).</li>
+<li>Dane z Gmaila są przechowywane wyłącznie lokalnie na komputerze właściciela. Tokeny dostępu są w pęku kluczy macOS.</li>
+<li>Aplikacja nie ma serwera, nie przesyła danych z Gmaila autorowi, nie sprzedaje ich i nie używa do reklam.</li>
+<li>Wyjątek: w skrzynkach, w których właściciel włączył funkcje AI, treść wybranych wiadomości jest przetwarzana przez model Claude (Anthropic) przez własne konto Claude Code właściciela, wyłącznie po to, by pokazać mu klasyfikację, podsumowania i odpowiedzi na jego pytania.</li>
+<li>Właściciel może w każdej chwili cofnąć dostęp na stronie <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> i usunąć dane lokalne, usuwając skrzynkę w aplikacji.</li>
+</ul>
+<p>Korzystanie z danych otrzymanych z interfejsów API Google jest zgodne z <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, w tym z wymogami „Limited Use”.</p>
+
+<h2>Privacy policy (English)</h2>
+<p>Sortownia is a private macOS app used only by its author with the author's own Google accounts. It uses the Gmail API (<code>gmail.modify</code>) to show, organize and send the account owner's mail, and <code>openid</code>, <code>email</code>, <code>profile</code> to read the account's address and name. Gmail data is stored only locally on the owner's Mac; tokens are kept in the macOS Keychain. There is no server; Gmail data is never sent to the developer, sold, or used for advertising. The only exception: in mailboxes where the owner turned on AI features, selected message content is processed by Anthropic's Claude model through the owner's own Claude Code account, solely to show the owner classifications, summaries and answers. Access can be revoked at any time at myaccount.google.com/permissions. Use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.</p>
+</body>
+</html>
